@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+</head>
+
+<body>
+    <div>
+        <label for="band">Band</label>
+        <select name="band" id="band" onchange="selectArt(this)">
+            <option value="please select a band" hidden disabled selected>please select a band</option>
+        </select>
+        <label for="art">Artist</label>
+        <select name="art" id="art" onchange="goWeb(this.value)">
+            <option value="please select a artist" hidden disabled selected>please select a Artist</option>
+        </select>
+    </div>
+    <script src="main2.js"></script>
+</body>
+
+</html>
